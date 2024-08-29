@@ -1,0 +1,286 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+h2{
+    font-size: 2.2em;
+}
+
+/* Hamburger Menu */
+
+#menu-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 75%;
+    right: 0;
+    width: 35%; 
+    background-color: black;
+    border-bottom-left-radius: 10px;
+}
+
+#menu-links a {
+    width: 100%;
+    text-align: center;
+    padding: 0.05rem;
+    display: block;
+    color: #48f2fb;
+}
+
+.menu-icon {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    color: #48f2fb;
+    margin-bottom: 0.5rem;
+}
+
+/* Navbar */
+nav {
+    position: relative;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #48f2fb;
+}
+
+nav h3{
+    color: #48f2fb;
+    margin-left: 2vw;
+}
+
+/* Section Styles */
+
+section {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+#sobre-mi {
+    background-color: #060a10;
+    padding: 80px 20px;
+}
+
+#sobre-mi img {
+    border-radius: 50%;
+    width: 25em;
+}
+
+#sobre-mi h1 {
+    margin-top: 20px;
+    font-size: 36px;
+}
+
+#sobre-mi p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+#sobre-mi button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #48f2fb;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#sobre-mi button:hover {
+    background-color: #e867ea;
+    color: #ffffff;
+}
+
+#sobre-mi .icons a {
+    margin: 0 10px;
+    color: #c823aa;
+    font-size: 24px;
+}
+
+#educacion, #experiencia, #portfolio, #contacto {
+    background-color: #ffffff;
+}
+
+/* Education Section */
+
+#educacion {
+    background-color: #e5e5e5;
+}
+
+#educacion ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#educacion ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Experience Section */
+
+#experiencia{
+    background-color: #060a10;
+}
+
+#experiencia .experience-card {
+    display: inline-block;
+    width: 65%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #e5e5e5;
+    border-radius: 15px;
+}
+
+#experiencia .experience-card h3 {
+    margin: 0;
+    color: #060a10;
+}
+
+#experiencia .experience-card .location {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#experiencia .experience-card .location i {
+    margin-right: 10px;
+}
+
+#experiencia .experience-card p {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.icon{
+    cursor: default;
+    height: 1.5rem;
+}
+
+.icon-location{
+    cursor: default;
+    height: 1.5rem;
+    margin-right: 6px;
+}
+
+.icons-location {
+    display: flex;
+    align-items: center;
+}
+
+#experiencia .experience-card .location-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+#experiencia .experience-card .location-bottom .location-right{
+    display: flex;
+    align-items: center;
+}
+
+/* Portfolio Section */
+
+img, .experience-card, .portfolio-card {
+    max-width: 100%;
+}
+
+#portfolio{
+    background-color: #e5e5e5;
+}
+
+.portfolio-container{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.portfolio-card {
+    margin: 10px 0;
+}
+
+#portfolio .portfolio-card {
+    display: inline-block;
+    width: 25%;
+    background-color: #060a10;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#portfolio .portfolio-img img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+#portfolio h3 {
+    margin-top: 15px;
+    font-size: 24px;
+    color: #e5e5e5;
+}
+
+#portfolio .icon-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #c823aa00;
+    font-size: 20px;
+}
+
+.icon-portfolio{
+    cursor: pointer;
+    height: 2rem;
+}
+
+
+/* Contact Section */
+
+#contacto h2{
+    padding-bottom: 0vh;
+}
+
+#contacto a {
+    color: #c823aa;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#contacto a:hover {
+    color: #00fff6;
+}
+
+/* Footer */
+footer {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-icons {
+    margin: 0 10px;
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+footer .social-icons :hover {
+    color: #00fff6;
+
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <title>Mi Portafolio</title>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <h3>Software Developer</h3>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <div id="menu-links">
+            <a href="#sobre-mi">About me</a>
+            <a href="#educacion">Education</a>
+            <a href="#experiencia">Experience</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contacto">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Sobre Mí Section -->
+    <section id="sobre-mi">
+        <img src="/assets/profile-pic3.png" alt="Profile pic">
+        <h1 style="color: #e5e5e5;">Luciano Porpiglia</h1>
+            <p style="color: #e5e5e5;">
+            Second-year student in Software Development. Currently, I am working on creating an
+            Android mobile application using Kotlin in conjunction with Jetpack Compose.
+            Additionally, I have experience developing in various languages such as JavaScript and Python,
+            complemented by technologies like React, HTML, CSS, Git, and GitHub, as well as MongoDB and Firebase for the back end.
+            My goal is to join a company where I can apply my knowledge, gain new experiences, and learn to tackle new challenges.
+            </p>
+        <div>
+            <button
+            class="btn btn-color-2"
+            onclick="window.open('//drive.google.com/drive/folders/1_qwwJaanQXEsL_saZ9ZjEoTqYpz7519G?usp=drive_link')"
+            >Download CV
+            </button>
+            <button><a href="#contacto" style="text-decoration: none; color: inherit;">Contacto</a></button>
+        </div>
+        <div class="icons">
+            <a href="#linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="#github"><i class="fa fa-github"></i></a>
+        </div>
+    </section>
+
+    <!-- Educación Section -->
+    <section id="educacion">
+        <img style="width: 8vh;" src="./assets/educationlogo.png" alt="Education icon"/>
+        <h2>Education</h2>
+        <ul>
+            <li>Software Development Technical Degree at UADE <br><b>2023 - Present</b></li>
+            <li>Real Estate Agent and Public Auctioneer <br><b>2019 - 2021</b></li>
+            <li><b>High
+                School
+                with
+                a
+                focus
+                on
+                Information
+                Technology</b></li>
+        </ul>
+    </section>
+
+    <!-- Experiencia Section -->
+    <section id="experiencia">
+    <h2 style="color: #e5e5e5;">Experience</h2>
+        <div class="experience-card">
+            <h3>Android Developer</h3>
+            <div class="location"><img class=icon src="/assets/company.png" alt="icon"><i class="fa fa-map-marker">Freelancer</i></div>
+            <p>I developed the front end of a mobile application for Android, working in a team with two other people.
+                I also participated in the back end, although it is not my strongest area.
+                </p>
+            <div class="location-bottom">
+                <div class="location-right">
+                    <img class=icon-location src="/assets/location.png" alt="icon">
+                    <p>Argentina, Buenos Aires</p>
+                </div>
+                <div class="icons-location">
+                    <img class=icon src="/assets/androide.png" alt="icon">
+                    <img class=icon src="/assets/kotlin.png" alt="icon">
+                    <img class=icon src="/assets/figma.png" alt="icon">
+                </div>
+            </div>
+        </div>
+        <div class="experience-card">
+            <h3>Web Developer</h3>
+            <div class="location"><img class=icon src="/assets/company.png" alt="icon"><i class="fa fa-map-marker">Personal Project</i></div>
+            <p>Developed a website to find the best Call of Duty weapon attachments,
+                organized by color to make it easy to choose the most effective options for different playstyles.
+                </p>
+            <div class="location-bottom">
+                <div class="location-right">
+                    <img class=icon-location src="/assets/location.png" alt="icon">
+                    <p>Argentina, Buenos Aires</p>
+                </div>
+                <div class="icons-location">
+                    <img class=icon src="/assets/html.png" alt="icon">
+                    <img class=icon src="/assets/css.png" alt="icon">
+                    <img class=icon src="/assets/js.png" alt="icon">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-container">
+            <div class="portfolio-card">
+                <h3>Loadouts</h3>
+                <div class="portfolio-img">
+                    <img src="/assets/project1.png" alt="Proyecto 1">
+                </div>
+                <a class="icon-link">
+                    <img
+                        src="/assets/githube5e5e5.png"
+                        alt="github icon"
+                        class="icon-portfolio"
+                        onclick="window.open('//github.com/LucianoPorpiglia/warzoneloadouts.git', '_blank')"
+                    >
+                </a>
+            </div>
+            <div class="portfolio-card">
+                <h3>Tales App</h3>
+                <div class="portfolio-img">
+                    <img src="/assets/project2original.png" alt="Proyecto 1">
+                </div>
+                <a class="icon-link">
+                    <img
+                        src="/assets/githube5e5e5.png"
+                        alt="talesapp icon"
+                        class="icon-portfolio"
+                        onclick="window.open('//github.com/LucianoPorpiglia/TalesApp', '_blank')"
+                    >
+                </a>
+            </div>
+        </div>
+        
+    </section>
+    <!-- Contacto Section -->
+    <section id="contacto">
+        <h2>Contact Me</h2>
+        <a href="mailto:luciano.porpiglia@gmail.com">luciano.porpiglia@gmail.com</a>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="social-icons">
+                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon-portfolio" onclick="window.open('//www.linkedin.com/in/luciano-porpiglia-a5930926a/', '_blank')"/>
+                <img src="./assets/x.png" alt="X icon" class="icon-portfolio" onclick="window.open('//www.x.com/eurenn_', '_blank')"/>
+                <img src="./assets/instagram.png" alt="Instagram icon" class="icon-portfolio" onclick="window.open('//www.instagram.com/euren.ok', '_blank')"/>
+                <img src="./assets/twitch.png" alt="Twitch icon" class="icon-portfolio" onclick="window.open('//www.twitch.tv/euren_', '_blank')"/>
+                <img src="./assets/youtube.png" alt="Youtube icon" class="icon-portfolio" onclick="window.open('//www.youtube.com/@Euren_', '_blank')"/>
+                <img src="./assets/github.png" alt="Github icon" class="icon-portfolio" onclick="window.open('//github.com/LucianoPorpiglia', '_blank')"/>
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('menu-links');
+            if (menu.style.display === 'block') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'block';
+            }
+        }
+        </script>        
+</body>
+</html>
